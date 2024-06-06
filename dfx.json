@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "image_canister_test_backend": {
+      "candid": "src/image_canister_test_backend/image_canister_test_backend.did",
+      "package": "image_canister_test_backend",
+      "type": "rust"
+    },
+    "image_canister_test_frontend": {
+      "dependencies": [
+        "image_canister_test_backend"
+      ],
+      "source": [
+        "src/image_canister_test_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "image_canister_test_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
