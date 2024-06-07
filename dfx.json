@@ -5,6 +5,11 @@
       "package": "image_canister_test_backend",
       "type": "rust"
     },
+    "asset_canister_backend": {
+      "candid": "src/asset_canister_backend/asset_canister_backend.did",
+      "package": "asset_canister_backend",
+      "type": "rust"
+    },
     "image_canister_test_frontend": {
       "dependencies": [
         "image_canister_test_backend"
