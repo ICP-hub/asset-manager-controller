@@ -9,6 +9,13 @@
       "candid": "src/asset_canister_backend/asset_canister_backend.did",
       "package": "asset_canister_backend",
       "type": "rust"
+    },
+    "image_canister_test_frontend": {
+      "source": [
+        "src/image_canister_test_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "image_canister_test_frontend"
     }
   },
   "defaults": {
